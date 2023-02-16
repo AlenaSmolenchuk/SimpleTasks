@@ -1,3 +1,7 @@
+//The array-form of an integer num is an array representing its digits in left to right order.
+//For example, for num = 1321, the array form is [1,3,2,1].
+//Given num, the array-form of an integer, and an integer k, return the array-form of the integer num + k.
+
 import java.util.ArrayList;
 import java.util.Collections;
 
@@ -5,7 +9,7 @@ import java.util.Collections;
 public class ToList {
     public static void main(String[] args){
 
-        int[] num = new int[]{1,2,0,0};
+        int[] num = new int[]{1,2,3,1};
         int k = 34 ;
         addToArrayForm(num,k);
     }
