@@ -5,11 +5,6 @@ import java.util.HashMap;
 import java.util.Map;
 
 public class RomanToInteger {
-/*    public static void main(String[] args) {
-       String s = "III";   // or s = "XII"; etc.
-        romanToInt(s);
-    }
-*/
     private int romanToInt(String s) {
         Map<Character,Integer> map = new HashMap<Character, Integer>();
         int sum=0;
