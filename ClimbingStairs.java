@@ -13,7 +13,7 @@ Explanation: There are three ways to climb to the top.
 
 public class Climbing{
     public static void main(String[] args) {
-        int n = 4;
+        int n = 5; //count of steps
         climbStairs(n);
     }
     public static void climbStairs(int n) {
