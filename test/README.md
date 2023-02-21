@@ -1,4 +1,4 @@
-TASK1
+<<TASK1>>
 
 INPUT CONDITION
 
@@ -12,7 +12,7 @@ OUTPUT CONDITION
 *Print in the first line the number of sculptures that can be brought into perfect shape in a given time, in the second line the numbers of these sculptures
 
 
-TASK2
+<<TASK2>>
 
 INPUT CONDITION
 
