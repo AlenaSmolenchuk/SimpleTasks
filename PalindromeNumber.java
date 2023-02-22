@@ -1,6 +1,8 @@
-//Given an integer x, return true if x is a palindrome, and false otherwise.
-//Explanation: 121 reads as 121 from left to right and from right to left.
-
+/*
+      Given an integer x, return true if x is a palindrome, and false otherwise.
+      Explanation: 121 reads as 121 from left to right and from right to left.
+*/
+          
 public class PalindromeNumber {
     public boolean isPalindrome(int x) {
         boolean isPalindromic = true;
