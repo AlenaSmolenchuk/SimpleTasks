@@ -1,6 +1,8 @@
-//Roman numerals are represented by seven different symbols: I, V, X, L, C, D and M.
-//Given a roman numeral, convert it to an integer.
-
+/*
+    Roman numerals are represented by seven different symbols: I, V, X, L, C, D and M.
+    Given a roman numeral, convert it to an integer.
+*/
+          
 import java.util.HashMap;
 import java.util.Map;
 
