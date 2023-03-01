@@ -1,5 +1,6 @@
 /*
-    Describe a method for sorting words in a string. String str = "Strings are constant; their values cannot be changed after they are created."
+    Describe a method for sorting words in a string. 
+    String str = "Strings are constant; their values cannot be changed after they are created."
     
     Sort order:
     1) in alphabetical order
