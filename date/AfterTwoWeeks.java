@@ -1,3 +1,7 @@
+/*
+  Print the date two weeks from the date you entered
+*/
+
 import java.time.LocalDate;
 import java.util.Scanner;
 
