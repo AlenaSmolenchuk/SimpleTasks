@@ -1,8 +1,6 @@
 /*
     Implement the method areSibling that checks if the files have the same parent.
-
     It should take two files and return true if the files have the same parent and false otherwise.
-
 */
 
 import java.io.File;
