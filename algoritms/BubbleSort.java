@@ -14,5 +14,4 @@ public class BubbleSort {
             System.out.print(m + " ");
         }
     }
-
 }
