@@ -1,8 +1,5 @@
-
 /*
-
     Print the day in the year of the entered date
-
 */
 
 import java.time.LocalDate;
