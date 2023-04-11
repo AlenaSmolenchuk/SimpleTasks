@@ -12,7 +12,7 @@ public class BubbleSort {
         }
         for (int m : mas) {
             System.out.print(m + " ");
-        }
+        } 
     }
 }
  
