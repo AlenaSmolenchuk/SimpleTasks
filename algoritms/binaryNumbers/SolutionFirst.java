@@ -6,7 +6,7 @@ class SolutionFirst {
         BigInteger A = new BigInteger(a,2);
         BigInteger B = new BigInteger(b,2);
         BigInteger add = A.add(B);
-        
+         
         return add.toString(2);
     }
 }
