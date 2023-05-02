@@ -5,7 +5,7 @@
 
     In the regular order, elements have indexes 0, 1, 2, ..., n – 1. In the backward order,
     the same elements have indexes -n, -n + 1, ..., -2, -1; where n is the size of a list.
-
+ 
     If the specified index is out of bounds, the method must throw the standard IndexOutOfBoundsException.
  
 */
