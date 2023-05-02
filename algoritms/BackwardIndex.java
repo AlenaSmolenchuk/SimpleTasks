@@ -2,7 +2,7 @@
 
     Implement a method that returns an element by the specified index from a list. 
     The method must return an element by its regular or backward index.
-
+ 
     In the regular order, elements have indexes 0, 1, 2, ..., n – 1. In the backward order,
     the same elements have indexes -n, -n + 1, ..., -2, -1; where n is the size of a list.
  
