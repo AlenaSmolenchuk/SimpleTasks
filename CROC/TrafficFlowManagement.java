@@ -58,8 +58,7 @@ public class Task3 {
             remainingGroups--; 
 
             if (remainingGroups > 0 && elevators.isEmpty()) {
-                // Если есть оставшиеся группы и нет доступных лифтов,
-                // добавляем время ожидания до прибытия следующего лифта
+                
                 totalTime += arrivalTime - currentFloor;
                 currentFloor = arrivalTime;
             }
