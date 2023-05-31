@@ -54,8 +54,8 @@ public class Task3 {
 
             currentFloor = Math.max(currentFloor + 1, groupEndTime);
 
-            totalPassengers += groupSize; // Увеличиваем общее количество пассажиров
-            remainingGroups--; // Уменьшаем количество оставшихся групп
+            totalPassengers += groupSize;
+            remainingGroups--; 
 
             if (remainingGroups > 0 && elevators.isEmpty()) {
                 // Если есть оставшиеся группы и нет доступных лифтов,
@@ -65,7 +65,7 @@ public class Task3 {
             }
         }
 
-        double averageTime = totalTime / totalPassengers; // Делим на общее количество пассажиров
+        double averageTime = totalTime / totalPassengers; 
 
         System.out.printf("%.10f%n", averageTime);
     }
