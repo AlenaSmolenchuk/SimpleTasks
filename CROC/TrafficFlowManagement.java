@@ -30,8 +30,8 @@ public class Task3 {
             elevators.add(new Elevator(0, currentFloor));
         }
 
-        int totalPassengers = 0; // Общее количество пассажиров
-        int remainingGroups = m; // Количество оставшихся групп
+        int totalPassengers = 0; 
+        int remainingGroups = m; 
 
         for (Group group : groups) {
             int arrivalTime = group.arrivalTime;
