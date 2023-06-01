@@ -4,9 +4,9 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.Scanner;
 
-
 public class Main{
     public static void main(String[] args) {
+        
         Scanner scanner = new Scanner(System.in);
         int n = scanner.nextInt();
 
@@ -39,7 +39,6 @@ public class Main{
             
             count++;
 
-
             if (cards.get(0) == minCard) {
                 cards.remove(0);
             } else {
@@ -49,7 +48,6 @@ public class Main{
                 cards.add(topCard);
             }
         }
-
         System.out.println(count); 
     }
 }
