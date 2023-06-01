@@ -4,6 +4,7 @@ import java.util.*;
 
 public class Task4 {
     public static void main(String[] args) {
+        
         Scanner scanner = new Scanner(System.in);
 
         Map<String, TreeSet<String>> phoneBook = new TreeMap<>();
