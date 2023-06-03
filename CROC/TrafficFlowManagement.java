@@ -86,6 +86,7 @@ public class Task3 {
     }
 
     static class Elevator {
+     
         int endTime;
         int currentFloor;
 
