@@ -39,6 +39,7 @@ public class Task4 {
     }
 
     private static String standardizePhoneNumber(String number) {
+        
         number = number.replaceAll("[^0-9]", "");
 
         if (number.length() == 11) {
