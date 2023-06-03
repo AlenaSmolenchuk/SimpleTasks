@@ -70,6 +70,7 @@ public class Task3 {
     }
 
     static class Group implements Comparable<Group> {
+     
         int arrivalTime;
         int groupSize;
 
