@@ -1,7 +1,7 @@
 package CROC;
 
 import java.util.Scanner;
-м
+
 public class TestTask {
         public static void main(String[] args) {
             Scanner scanner = new Scanner(System.in);
