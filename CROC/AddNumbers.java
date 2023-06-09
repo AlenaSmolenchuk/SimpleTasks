@@ -12,7 +12,7 @@ public class TestTask {
 
             for (int i = 0; i < n; i++) {
                 arr[i] = scanner.nextInt();
-            }
+            } 
 
             int sum = 0;
 
