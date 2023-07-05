@@ -11,7 +11,7 @@ public class Main {
  
         Map<String, Queue<Integer>> connections = new HashMap<>();
         List<String> disconnections = new ArrayList<>();
-
+ 
         for (int i = 1; i <= n; i++) {
             String line = scanner.nextLine();
             if (line.startsWith("+")) {
