@@ -8,7 +8,7 @@ public class Main {
         Scanner scanner = new Scanner(System.in);
         int n = scanner.nextInt();
         scanner.nextLine();
-
+ 
         Map<String, Queue<Integer>> connections = new HashMap<>();
         List<String> disconnections = new ArrayList<>();
 
