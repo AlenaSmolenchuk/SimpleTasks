@@ -16,6 +16,7 @@ public class Main {
         }
 
         List<Integer> cards = new ArrayList<>();
+     
         for (int i = 0; i < n; i++) {
             int card = scanner.nextInt();
 
