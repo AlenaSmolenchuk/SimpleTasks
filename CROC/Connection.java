@@ -30,7 +30,6 @@ public class Main {
 
         for (String disconnection : disconnections) {
             System.out.println(disconnection);
-
         }
     }
 }
