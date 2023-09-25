@@ -1,0 +1,63 @@
+Инициализация переменных и цикл:
+
+double dx = 1.0;
+double dy = 1.0;
+double dz = 1.0;
+int i = 1;
+while (Math.max(Math.abs(dx), Math.max(Math.abs(dy), Math.abs(dz))) > eps) {
+    // Цикл метода Ньютона
+}
+Здесь инициализируются переменные для приращений dx, dy, и dz,
+а также счетчик итераций i. Затем запускается цикл,
+который будет выполняться до тех пор,
+пока максимальное из абсолютных значений dx, dy и dz больше, чем eps.
+
+
+ Вычисление матрицы Якоби и вектора функций:
+
+ RealMatrix m1 = new Array2DRowRealMatrix(new double[][]{
+     {f1x(x, y, z), f1y(x, y, z), f1z(x, y, z)},
+     {f2x(x, y, z), f2y(x, y, z), f2z(x, y, z)},
+     {f3x(x, y, z), f3y(x, y, z), f3z(x, y, z)}
+ });
+
+ RealVector v1 = new ArrayRealVector(new double[]{
+     -f1(x, y, z), -f2(x, y, z), -f3(x, y, z)
+ });
+ Здесь вычисляются матрица Якоби (матрица производных) m1
+ и вектор функций v1 на текущих значениях x, y, и z.
+
+
+ Решение системы линейных уравнений методом Ньютона:
+
+ RealVector a;
+ try {
+     LUDecomposition lu = new LUDecomposition(m1);
+     a = lu.getSolver().solve(v1);
+ } catch (SingularMatrixException | MathArithmeticException |
+          MaxCountExceededException | NullArgumentException e) {
+     System.out.println("Ошибка: матрица сингулярна или невозможно решить систему уравнений.");
+     return;
+ }
+ Здесь используется метод Ньютона для решения системы линейных уравнений
+ с матрицей Якоби m1 и вектором функций v1.
+ В случае возникновения ошибки (например, если матрица сингулярна
+ или не удается решить систему),
+ программа выводит сообщение об ошибке и завершает выполнение.
+
+ Обновление переменных и вывод результатов:
+
+ dx = a.getEntry(0);
+ dy = a.getEntry(1);
+ dz = a.getEntry(2);
+
+ x += dx;
+ y += dy;
+ z += dz;
+
+ System.out.println("Итерация №" + i);
+ System.out.println("x = " + x + "; y = " + y + "; z = " + z);
+ System.out.println("-----");
+ i++;
+ После решения системы линейных уравнений обновляются значения переменных x, y и z,
+ затем выводятся результаты итерации, включая текущие значения переменных.
