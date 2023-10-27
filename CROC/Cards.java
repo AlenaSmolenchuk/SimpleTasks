@@ -31,7 +31,9 @@ public class Main {
         int count = 0;
 
         while (!cards.isEmpty()) {
+         
             int minCard = Integer.MAX_VALUE;
+         
             for (int card : cards) {
                 if (card < minCard) {
                     minCard = card;
