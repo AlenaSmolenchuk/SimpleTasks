@@ -33,8 +33,7 @@ public class InterpolationPlot extends Application {
                     (z - x[ind1]) * (diff1(ind1 + 1, ind1) +
                             (z - x[ind1 + 1]) * (diff2(ind1 + 2, ind1 + 1, ind1)));
         } else {
-            // Возвращаем какое-то значение по умолчанию, если индекс выходит за пределы массива.
-            return 0.0; // Измените это значение на то, которое вам подходит.
+            return 0.0;
         }
     }
 
