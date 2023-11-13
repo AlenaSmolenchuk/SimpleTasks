@@ -3,6 +3,7 @@ import java.util.Scanner;
     
 public class DifferenceInSecond {
     public static void main(String[] args) {
+        
         Scanner sc = new Scanner(System.in);
         LocalTime time1 = LocalTime.parse(sc.next());
         LocalTime time2 = LocalTime.parse(sc.next());
