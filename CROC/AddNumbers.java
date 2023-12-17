@@ -23,6 +23,6 @@ public class TestTask {
 
             System.out.println(sum);
 
-            scanner.close();
+            scanner.close(); 
         }
 }
