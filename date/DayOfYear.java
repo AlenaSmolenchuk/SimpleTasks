@@ -18,5 +18,7 @@ public class DayOfYear {
         System.out.println(day1inyear);
         System.out.println(day2inyear);
         System.out.println(day3inyear);
+
+        sc.close();
     }
 }
