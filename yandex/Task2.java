@@ -5,6 +5,7 @@ import java.util.Scanner;
 
 public class Task2 {
     public static void main(String[] args) {
+
         Scanner sc = new Scanner(System.in);
         int countLetters = sc.nextInt();
 
@@ -34,7 +35,8 @@ public class Task2 {
     }
 
     static void result(int[] line,HashMap<Integer,Integer> map){
-       int count = 0;
+       
+        int count = 0;
         for (int i = line.length - 1 ; i > 0 ; i--){
             if (map.get(line[i]) != (map.get(line[i-1]))){
                 count++;
