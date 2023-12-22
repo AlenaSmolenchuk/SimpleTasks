@@ -32,6 +32,7 @@ public class Task2 {
 
 
         result(line,map);
+        sc.close();
     }
 
     static void result(int[] line,HashMap<Integer,Integer> map){
