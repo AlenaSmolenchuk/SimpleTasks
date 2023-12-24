@@ -49,7 +49,7 @@ public class Task4 {
                 return "+7" + number.substring(1);
             }
         } else if (number.length() == 7) {
-            return "+7495" + number;
+            return "+7495" + number; 
         }
 
         return null;
