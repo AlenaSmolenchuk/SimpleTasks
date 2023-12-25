@@ -1,5 +1,6 @@
  # TASK1 
 
+
 | INPUT CONDITION |
 
 *Тhe first line contains three numbers - the number of sculptures, the weight of the ideal sculpture, the time until the new year
@@ -14,6 +15,7 @@
 ______________________________________
 
  # TASK2 
+
 
 | INPUT CONDITION |
 
