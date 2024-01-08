@@ -13,6 +13,8 @@ public class Siblings {
         File f1 = new File(sc.next());
         File f2 = new File(sc.next());
         areSiblings(f1,f2);
+
+        sc.close();
     }
     public static void areSiblings(File f1, File f2) {
         boolean result = false;
