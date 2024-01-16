@@ -3,9 +3,9 @@
 
 | INPUT CONDITION |
 
-*Тhe first line contains three numbers - the number of sculptures, the weight of the ideal sculpture, the time until the new year
+* Тhe first line contains three numbers - the number of sculptures, the weight of the ideal sculpture, the time until the new year
 
-*Тhe second line contains N numbers (depending on the number of sculptures) - the weight of each sculpture
+* Тhe second line contains N numbers (depending on the number of sculptures) - the weight of each sculpture
 
 
 | OUTPUT CONDITION |
