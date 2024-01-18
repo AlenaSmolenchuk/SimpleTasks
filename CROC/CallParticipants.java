@@ -28,5 +28,6 @@ public class Task {
                     callParticipants.put(callId, i);
                 }
             }
+        scanner.close();
         }
 }
