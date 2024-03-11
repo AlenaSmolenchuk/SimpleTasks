@@ -1,4 +1,4 @@
- # TASK1 
+ # TASK_1 
 
 
 | INPUT CONDITION |
@@ -14,7 +14,7 @@
 
 ______________________________________
 
- # TASK2 
+ # TASK_2 
  
 
 | INPUT CONDITION |
