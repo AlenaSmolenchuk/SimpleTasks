@@ -83,7 +83,7 @@ public class Task3 {
         public int compareTo(Group other) {
             return Integer.compare(this.arrivalTime, other.arrivalTime);
         }
-    }
+    } 
 
     static class Elevator {
      
