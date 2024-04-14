@@ -32,6 +32,6 @@ It is guaranteed that all values are different
 It is guaranteed that any character from the abstract is present on the keyboard
 
 | OUTPUT CONDITION |
-
+ 
 * Print a single integer - the number of digits of the keyboard design specified in the input data on the abstract.
 (bit depth refers to the number of transitions from one line to another when typing an abstract)
