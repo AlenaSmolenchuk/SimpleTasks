@@ -8,7 +8,7 @@
 * Тhe second line contains N numbers (depending on the number of sculptures) - the weight of each sculpture
 
 
-| OUTPUT CONDITION |
+| OUTPUT CONDITION | 
 
 * Print in the first line the number of sculptures that can be brought into perfect shape in a given time, in the second line the numbers of these sculptures 
 
